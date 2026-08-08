@@ -8,21 +8,21 @@ export const PROJECTS = [
     title: "KUSKAS",
     category: "Web & Mobile Ecosystem",
     tech: "Flutter • Laravel • React • Supabase • Gemini AI",
-    image: "/src/assets/KUSKAS/cover.png",
+    image: "/KUSKAS/cover.png",
     github: "https://github.com/boyharendy/Projek_Kuskas_App_Web",
     gallery: [
-      { url: "/src/assets/KUSKAS/web.jpeg", desc: "Tampilan Dashboard Utama Web" },
-      { url: "/src/assets/KUSKAS/web1.jpeg", desc: "Halaman Manajemen Data Web" },
-      { url: "/src/assets/KUSKAS/Web2.jpeg", desc: "Fitur Laporan Web" },
-      { url: "/src/assets/KUSKAS/mob1.jpeg", desc: "Tampilan Beranda Mobile" },
-      { url: "/src/assets/KUSKAS/mob2.jpeg", desc: "Navigasi Aplikasi Mobile" },
-      { url: "/src/assets/KUSKAS/mob3.jpeg", desc: "Detail Keuangan Mobile" },
-      { url: "/src/assets/KUSKAS/mob4.jpeg", desc: "Statistik Pengeluaran" },
-      { url: "/src/assets/KUSKAS/mob5.jpeg", desc: "Menu Pengaturan Akun" },
-      { url: "/src/assets/KUSKAS/mob6.jpeg", desc: "Pemasukan Bulanan" },
-      { url: "/src/assets/KUSKAS/mob7.jpeg", desc: "Fitur Transfer Cepat" },
-      { url: "/src/assets/KUSKAS/mob8.jpeg", desc: "Notifikasi Sistem" },
-      { url: "/src/assets/KUSKAS/mob9.jpeg", desc: "Ringkasan Saldo Akhir" }
+      { url: "/KUSKAS/web.jpeg", desc: "Tampilan Dashboard Utama Web" },
+      { url: "/KUSKAS/web1.jpeg", desc: "Halaman Manajemen Data Web" },
+      { url: "/KUSKAS/Web2.jpeg", desc: "Fitur Laporan Web" },
+      { url: "/KUSKAS/mob1.jpeg", desc: "Tampilan Beranda Mobile" },
+      { url: "/KUSKAS/mob2.jpeg", desc: "Navigasi Aplikasi Mobile" },
+      { url: "/KUSKAS/mob3.jpeg", desc: "Detail Keuangan Mobile" },
+      { url: "/KUSKAS/mob4.jpeg", desc: "Statistik Pengeluaran" },
+      { url: "/KUSKAS/mob5.jpeg", desc: "Menu Pengaturan Akun" },
+      { url: "/KUSKAS/mob6.jpeg", desc: "Pemasukan Bulanan" },
+      { url: "/KUSKAS/mob7.jpeg", desc: "Fitur Transfer Cepat" },
+      { url: "/KUSKAS/mob8.jpeg", desc: "Notifikasi Sistem" },
+      { url: "/KUSKAS/mob9.jpeg", desc: "Ringkasan Saldo Akhir" }
     ],
     description: "KUSKAS (Keuangan Sakti Kas) adalah ekosistem aplikasi keuangan pribadi yang terdiri dari aplikasi mobile Android (Flutter) dan web admin panel (Laravel + React). Proyek ini memecahkan masalah pencatatan keuangan manual dengan pendekatan modern: cukup rekam suara, maka AI akan otomatis mengkategorikan transaksi. Dilengkapi fitur QR Code Login untuk web admin dan sinkronisasi real-time via Supabase."
   },
@@ -31,12 +31,12 @@ export const PROJECTS = [
     title: "KOCARI",
     category: "E-Commerce Trust Aggregator",
     tech: "Web Scraping Architecture",
-    image: "/src/assets/KOCARI/cover.png",
+    image: "/KOCARI/cover.png",
     github: "https://github.com/boyharendy/KOCARI--Website-scraping.git",
     gallery: [
-      { url: "/src/assets/KOCARI/Beranda.png", desc: "Tampilan Beranda Utama" },
-      { url: "/src/assets/KOCARI/Login.png", desc: "Halaman Autentikasi" },
-      { url: "/src/assets/KOCARI/dashboard admin.png", desc: "Dashboard Panel Admin" }
+      { url: "/KOCARI/Beranda.png", desc: "Tampilan Beranda Utama" },
+      { url: "/KOCARI/Login.png", desc: "Halaman Autentikasi" },
+      { url: "/KOCARI/dashboard admin.png", desc: "Dashboard Panel Admin" }
     ],
     description: "KOCARI adalah platform E-Commerce Trust Aggregator yang dirancang untuk mengumpulkan, menganalisis, dan menyajikan tingkat kepercayaan toko online. Proyek ini mendemonstrasikan perancangan arsitektur sistem scraping modern dengan antarmuka pengguna yang intuitif."
   },
@@ -45,16 +45,16 @@ export const PROJECTS = [
     title: "TOOLSKU",
     category: "AI Content Creation Suite",
     tech: "React • Python • AI Models • Video Processing",
-    image: "/src/assets/TOOLSKU/Cover.png",
+    image: "/TOOLSKU/Cover.png",
     github: "https://github.com/boyharendy/Toolsku",
     gallery: [
-      { url: "/src/assets/TOOLSKU/screenshot_home.png", desc: "Tampilan Beranda Utama Toolsku" },
-      { url: "/src/assets/TOOLSKU/screenshot_auto-shorts.png", desc: "Fitur Auto Shorts Generator" },
-      { url: "/src/assets/TOOLSKU/screenshot_auto-subtitle.png", desc: "Pembuatan Subtitle Otomatis" },
-      { url: "/src/assets/TOOLSKU/screenshot_video-clipper.png", desc: "Pemotong Video Otomatis (Video Clipper)" },
-      { url: "/src/assets/TOOLSKU/screenshot_voice-enhancer.png", desc: "Peningkatan Kualitas Suara (Voice Enhancer)" },
-      { url: "/src/assets/TOOLSKU/screenshot_bg-remover.png", desc: "Penghapus Latar Belakang" },
-      { url: "/src/assets/TOOLSKU/screenshot_color-grading.png", desc: "Color Grading Otomatis" }
+      { url: "/TOOLSKU/screenshot_home.png", desc: "Tampilan Beranda Utama Toolsku" },
+      { url: "/TOOLSKU/screenshot_auto-shorts.png", desc: "Fitur Auto Shorts Generator" },
+      { url: "/TOOLSKU/screenshot_auto-subtitle.png", desc: "Pembuatan Subtitle Otomatis" },
+      { url: "/TOOLSKU/screenshot_video-clipper.png", desc: "Pemotong Video Otomatis (Video Clipper)" },
+      { url: "/TOOLSKU/screenshot_voice-enhancer.png", desc: "Peningkatan Kualitas Suara (Voice Enhancer)" },
+      { url: "/TOOLSKU/screenshot_bg-remover.png", desc: "Penghapus Latar Belakang" },
+      { url: "/TOOLSKU/screenshot_color-grading.png", desc: "Color Grading Otomatis" }
     ],
     description: "TOOLSKU adalah platform AI generatif all-in-one yang dirancang untuk mempermudah kreator konten dalam mengedit dan memproduksi video. Mulai dari pembuatan Auto Shorts, Auto Subtitle, Video Clipper, hingga Voice Enhancer, semuanya diproses menggunakan kecerdasan buatan untuk alur kerja yang jauh lebih cepat."
   }
