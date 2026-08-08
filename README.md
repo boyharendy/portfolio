@@ -1,16 +1,26 @@
-# React + Vite
+# Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio repository! This project serves as a digital showcase of my professional journey, skills, and selected works in software development.
 
-Currently, two official plugins are available:
+## 🌟 Featured Projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio specifically highlights **three core projects** that best demonstrate my technical capabilities, problem-solving skills, and design philosophy. These selected works represent my commitment to building scalable, user-centric, and high-quality applications. 
 
-## React Compiler
+You can explore the technical details, features, and visual demonstrations of these three main projects directly within the portfolio website.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Additional Projects
 
-## Expanding the Oxlint configuration
+While this portfolio focuses on my three most significant works, my development journey doesn't stop there. I am continuously building, experimenting, and contributing to various other projects.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To explore my full range of work, including experimental builds, open-source contributions, and smaller projects, please visit the repositories on my **[GitHub Profile](https://github.com/boyharendy)**.
+
+## 🛠️ Tech Stack
+
+This portfolio itself is built using modern web technologies to ensure a responsive and dynamic user experience:
+- **React (Vite)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** (for modern, flowing animations)
+
+---
+*Thank you for visiting! Feel free to reach out if you have any questions or potential collaboration opportunities.*
