@@ -47,6 +47,7 @@ export const PROJECTS = [
     tech: "React • Python • AI Models • Video Processing",
     image: "/TOOLSKU/Cover.png",
     github: "https://github.com/boyharendy/Toolsku",
+    link: "https://toolsku-two.vercel.app",
     gallery: [
       { url: "/TOOLSKU/screenshot_home.png", desc: "Tampilan Beranda Utama Toolsku" },
       { url: "/TOOLSKU/screenshot_auto-shorts.png", desc: "Fitur Auto Shorts Generator" },
@@ -138,6 +139,11 @@ export const Projects = () => {
                     {p.github && (
                       <a href={p.github} target="_blank" rel="noopener noreferrer" className="flex h-12 items-center justify-center rounded-xl border border-border bg-transparent px-8 font-medium text-foreground transition-colors hover:bg-muted">
                         GitHub
+                      </a>
+                    )}
+                    {p.link && (
+                      <a href={p.link} target="_blank" rel="noopener noreferrer" className="flex h-12 items-center justify-center rounded-xl border border-border bg-transparent px-8 font-medium text-foreground transition-colors hover:bg-muted">
+                        Live Demo
                       </a>
                     )}
                   </div>

@@ -157,11 +157,19 @@ export const ProjectDetail = () => {
               <p className="text-muted-foreground leading-relaxed text-lg">
                 {project.description || `This is a detailed view for ${project.title}. It serves as a showcase of the skills and technologies used in developing this ${project.category.toLowerCase()}. The focus is on creating a seamless and interactive experience, ensuring that functionality meets aesthetic brilliance.`}
               </p>
-              {project.github && (
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-block mt-8 text-foreground text-sm font-bold tracking-widest uppercase border border-foreground/30 px-6 py-3 rounded-full hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300">
-                  View Repository
-                </a>
-              )}
+              <div className="flex flex-wrap gap-4 mt-8">
+                {/* @ts-ignore - 'link' may not exist on all items */}
+                {project.link && (
+                  <a href={(project as any).link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-foreground text-background text-sm font-bold tracking-widest uppercase px-6 py-3 rounded-full hover:bg-foreground/90 transition-all duration-300">
+                    Live Demo
+                  </a>
+                )}
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center text-foreground text-sm font-bold tracking-widest uppercase border border-foreground/30 px-6 py-3 rounded-full hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300">
+                    View Repository
+                  </a>
+                )}
+              </div>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4 text-foreground/90">Tech Stack</h3>
