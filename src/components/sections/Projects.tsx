@@ -58,6 +58,18 @@ export const PROJECTS = [
       { url: "/TOOLSKU/screenshot_color-grading.png", desc: "Color Grading Otomatis" }
     ],
     description: "TOOLSKU adalah platform AI generatif all-in-one yang dirancang untuk mempermudah kreator konten dalam mengedit dan memproduksi video. Mulai dari pembuatan Auto Shorts, Auto Subtitle, Video Clipper, hingga Voice Enhancer, semuanya diproses menggunakan kecerdasan buatan untuk alur kerja yang jauh lebih cepat."
+  },
+  {
+    id: '04',
+    title: "AETHER WEATHER",
+    category: "Weather Application",
+    tech: "React • TypeScript • Tailwind CSS",
+    image: "/Aether/Cover.png",
+    github: "https://github.com/boyharendy/Aether-Weather",
+    gallery: [
+      { url: "/Aether/preview.png", desc: "Tampilan Utama Aether Weather" }
+    ],
+    description: "Aether Weather adalah aplikasi cuaca interaktif dengan latar belakang dinamis yang menyesuaikan dengan kondisi cuaca secara real-time. Dirancang untuk menyajikan informasi cuaca yang akurat dengan pengalaman pengguna dan antarmuka visual yang modern."
   }
 ]
 

@@ -108,7 +108,12 @@ export const ProjectDetail = () => {
 
             <div 
               ref={galleryRef}
-              className="w-full flex overflow-x-auto snap-x snap-mandatory gap-4 px-6 sm:px-12 lg:px-24 pb-8 no-scrollbar cursor-grab active:cursor-grabbing"
+              className={`w-full flex overflow-x-auto snap-x snap-mandatory gap-4 px-6 sm:px-12 lg:px-24 pb-8 no-scrollbar cursor-grab active:cursor-grabbing ${
+                project.gallery.length === 1 ? 'justify-center' : 
+                project.gallery.length === 2 ? 'md:justify-center' : 
+                project.gallery.length === 3 ? 'lg:justify-center' : 
+                project.gallery.length === 4 ? 'xl:justify-center' : ''
+              }`}
             >
               {project.gallery.map((img, idx) => (
                 <div 
