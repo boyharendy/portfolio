@@ -6,6 +6,8 @@ import { CustomCursor } from './components/ui/custom-cursor'
 import { Home } from './pages/Home'
 import { ProjectDetail } from './pages/ProjectDetail'
 
+import { MusicPlayer } from './components/ui/MusicPlayer'
+
 // Helper component to scroll to top on route change
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -61,6 +63,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
+        
+        <MusicPlayer />
+        
         <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border/40 mt-auto">
           <p>CC @boyharendy</p>
         </footer>
