@@ -61,6 +61,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
+        <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border/40 mt-auto">
+          <p>CC @boyharendy</p>
+        </footer>
       </div>
     </BrowserRouter>
   )
